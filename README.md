@@ -4,15 +4,17 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=36BCF7&center=true&vCenter=true&width=620&height=40&lines=%D0%9F%D0%B8%D1%88%D1%83%20%D0%BA%D0%BE%D0%B4%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D1%83%D1%8E%20%D0%B5%D0%B3%D0%BE;%D0%94%D0%B5%D1%81%D0%BA%D1%82%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%B3%D1%80;QA%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BE%D0%BA" alt="Пишу код и тестирую его. Десктопные приложения и моды для игр. QA и автоматизация проверок."/>
 
-<img src="https://komarev.com/ghpvc/?username=ANICKONS&label=Profile%20views&color=brightgreen&style=flat" alt="Profile views"/>
-
-<br/><br/>
+<br/>
 
 <a href="https://vk.com/anickon"><img src="https://img.shields.io/badge/VK-0077FF?style=flat&logo=vk&logoColor=white" alt="VK"/></a>
 <a href="https://t.me/An1ckon"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram"/></a>
 <a href="https://github.com/ANICKONS"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://boosty.to/anickon"><img src="https://img.shields.io/badge/Boosty-F15F2C?style=flat&logo=boosty&logoColor=white" alt="Boosty"/></a>
 <a href="mailto:anickon.mi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=ANICKONS&label=Profile%20views&color=brightgreen&style=flat" alt="Profile views"/>
 
 </div>
 
