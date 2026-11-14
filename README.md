@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=ANICKON&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=40" alt="ANICKON" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=36BCF7&center=true&vCenter=true&width=620&height=40&lines=%D0%98%D1%89%D1%83%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%20QA%20Engineer;%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D1%83%D1%8E%20%D0%B8%20%D0%BF%D0%B8%D1%88%D1%83%20%D0%BA%D0%BE%D0%B4;%D0%94%D0%B5%D1%81%D0%BA%D1%82%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%B3%D1%80" alt="Ищу работу QA Engineer. Тестирую и пишу код."/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=36BCF7&center=true&vCenter=true&width=620&height=40&lines=%D0%9F%D0%B8%D1%88%D1%83%20%D0%BA%D0%BE%D0%B4%20%D0%B8%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D1%83%D1%8E%20%D0%B5%D0%B3%D0%BE;%D0%94%D0%B5%D1%81%D0%BA%D1%82%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BC%D0%BE%D0%B4%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%B3%D1%80;QA%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BE%D0%BA" alt="Пишу код и тестирую его. Десктопные приложения и моды для игр. QA и автоматизация проверок."/>
 
 <img src="https://komarev.com/ghpvc/?username=ANICKONS&label=Profile%20views&color=brightgreen&style=flat" alt="Profile views"/>
 
@@ -18,7 +18,7 @@
 
 ## Коротко о себе
 
-Я ANICKON и ищу работу QA Engineer. Параллельно пишу код: десктопные приложения на Electron и React, моды для игр на C#. Поэтому я знаю, как всё это ломается изнутри, и в своих проектах не оставляю проверку на потом.
+Я ANICKON. Пишу десктопные приложения на Electron и React и моды для игр на C#. Тестирование для меня часть разработки, а не отдельный шаг в конце: я знаю, как всё это ломается изнутри, поэтому в своих проектах не оставляю проверку на потом.
 
 Что из тестирования у меня уже есть в проектах:
 
