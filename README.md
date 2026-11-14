@@ -1,91 +1,59 @@
 <div align="center">
 
-# Привет, я ANICKON 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=ANICKON&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=40" alt="ANICKON" width="100%"/>
 
-**Десктопные приложения, моды для игр и инструменты для разработчиков**
-React · TypeScript · Electron · C# · Графика (DLSS / FSR / DirectX)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=36BCF7&center=true&vCenter=true&width=620&height=40&lines=%D0%9F%D0%B8%D1%88%D1%83%20%D0%B4%D0%B5%D1%81%D0%BA%D1%82%D0%BE%D0%BF%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F;%D0%94%D0%B5%D0%BB%D0%B0%D1%8E%20%D0%BC%D0%BE%D0%B4%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%B8%D0%B3%D1%80;%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%80%D0%B0%D1%8E%D1%81%D1%8C%20%D1%81%20%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%BE%D0%B9%3A%20DLSS%20%D0%B8%20FSR;TypeScript%2C%20React%2C%20Electron%2C%20C%23" alt="Пишу десктопные приложения, делаю моды для игр"/>
 
-[![Сайт](https://img.shields.io/badge/Сайт-dealova.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://dealova.com)
-[![Nexus Mods](https://img.shields.io/badge/Nexus%20Mods-MOP--REVIVAL-FF7A1A?style=for-the-badge)](https://www.nexusmods.com/mysummercar/mods/11595)
-[![GitHub followers](https://img.shields.io/github/followers/ANICKONS?style=for-the-badge&logo=github&color=111827)](https://github.com/ANICKONS?tab=followers)
+[![Сайт](https://img.shields.io/badge/dealova.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://dealova.com)
+[![Nexus Mods](https://img.shields.io/badge/Nexus%20Mods-FF7A1A?style=for-the-badge)](https://www.nexusmods.com/mysummercar/mods/11595)
 
 </div>
 
----
+## Коротко о себе
 
-## 👨‍💻 Обо мне
+Я ANICKON. Больше всего времени у меня уходит на два занятия: десктопные приложения (Electron + React) и моды для игр на C#. Мне нравится, когда у программы есть реальные пользователи, поэтому свои проекты я стараюсь выпускать с нормальным README, лицензией и ссылкой на скачивание.
 
-Я делаю продукты, которыми реально пользуются: редактор переводов для модов, лаунчер для модифицированной игры, моды для производительности и графики с измеренными результатами.
+Мои проекты открыты, кроме ULTIMA: там код можно читать, но нельзя форкать и менять (проприетарная лицензия).
 
-- 🛠️ Довожу проект до готового продукта: установщик, README со скриншотами, changelog, лицензия, удобная отправка багрепортов
-- 🌍 Мои проекты выходят с русским и английским интерфейсом
-- 📍 Живу в Пеканбару · 🏢 [dealova](https://dealova.com)
+## Что я сделал
 
----
+**[ULTIMA](https://github.com/ANICKONS/ULTIMA)** — редактор для перевода модов Baldur's Gate 3. Открываешь `.pak` или `.xml`, слева оригинал, справа перевод. Можно переводить через Google Translate или локальную модель через Ollama. Приложение само обновляется через GitHub Releases.
+`Electron` `React` `Vite` `Tailwind`
 
-## 🚀 Избранные проекты
+**[MOP-REVIVAL](https://github.com/ANICKONS/MOP-REVIVAL)** — мод, который повышает FPS в My Summer Car. Это продолжение старого мода MOP, который я переделал под нынешнюю версию игры. Есть готовые правила для 43 других модов и [сайт совместимости](https://anickons.github.io/MOP-REVIVAL/). Интерфейс на английском, русском и польском.
+`C#` `MSCLoader` `Unity`
 
-### 🌐 [ULTIMA](https://github.com/ANICKONS/ULTIMA): визуальный редактор и автопереводчик модов для Baldur's Gate 3
-Десктопное приложение для локализации модов: импорт и экспорт `.pak` и `.xml`, таблица «оригинал и перевод рядом» с поиском и фильтрами, Google Translate, перевод локальными LLM через Ollama, защита от потери несохранённых изменений, история проектов, автообновления через GitHub Releases.
-`Electron` `React 19` `Vite` `TailwindCSS` `Node.js`
+**[My-Summer-Frames](https://github.com/ANICKONS/My-Summer-Frames)** — мод, который добавляет в My Summer Car DLSS, FSR, генерацию кадров и NVIDIA Reflex. Игра старая (Unity 5, DirectX 11), так что векторы движения пришлось считать самому из буфера глубины, а генерацию кадров запускать через отдельный мост на DirectX 12. Проверял на RTX 5070 Ti.
+`C#` `C++` `DirectX` `DLSS` `FSR`
 
-### 🏎️ [MOP-REVIVAL](https://github.com/ANICKONS/MOP-REVIVAL): мод оптимизации FPS для My Summer Car
-Продолжение мода MOP, переписанное под актуальную версию игры и MSCLoader. Отключает недостижимые объекты, ускоряет игровые скрипты, облегчает рендеринг, исправляет старые баги. Встроенные правила для **43 модов**, публичный [сайт совместимости](https://anickons.github.io/MOP-REVIVAL/), внутриигровой тест-бот и раннер тестов. Языки: английский, русский, польский.
-`C#` `MSCLoader` `Unity 5` `GPLv3`
+**[Cyberpunk Mod Launcher](https://github.com/ANICKONS/cyberpunk-unreal-launcher)** — лаунчер для сборки модов Cyberpunk 2077 в стиле Найт-Сити. Скачивает и ставит сборку одной кнопкой, следит за версиями, запускает игру через Mod Organizer 2.
+`Electron` `React` `TypeScript`
 
-### 🎞️ [My-Summer-Frames](https://github.com/ANICKONS/My-Summer-Frames): DLSS, FSR, Frame Generation и Reflex для My Summer Car
-Добавляет современные апскейлеры в игру на Unity 5 / Direct3D 11: векторы движения считаются из буфера глубины, DLSS Frame Generation от 2x до 6x (RTX 40/50), FSR Frame Generation на любой DX12-видеокарте через мост D3D12, NVIDIA Reflex. Работает на видеокартах NVIDIA, AMD и Intel.
-`C#` `C++` `Direct3D 11/12` `DLSS` `FSR` `MIT`
+**[ULTIMA_TOOLS](https://github.com/ANICKONS/ULTIMA_TOOLS)** `C#` и **[IDELUXE-STUDIO](https://github.com/ANICKONS/IDELUXE-STUDIO)** `TypeScript`
+<!-- TODO: пара слов о том, что делают эти два проекта -->
 
-### 🌃 [Cyberpunk Mod Launcher](https://github.com/ANICKONS/cyberpunk-unreal-launcher): лаунчер для сборки модов Cyberpunk 2077
-Десктопный лаунчер в стиле Найт-Сити с неоновым дизайном: скачивание и установка сборки в один клик, отслеживание версий и changelog, запуск через Mod Organizer 2, Google Drive и Яндекс.Диск в качестве хранилища.
-`Electron` `React` `TypeScript` `Vite`
+## С чем работаю
 
-### 🧰 [ULTIMA_TOOLS](https://github.com/ANICKONS/ULTIMA_TOOLS)
-<!-- TODO: одно-два предложения о том, что делает проект -->
-`C#`
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### 💻 [IDELUXE-STUDIO](https://github.com/ANICKONS/IDELUXE-STUDIO)
-<!-- TODO: одно-два предложения о том, что делает проект -->
-`TypeScript`
+Ещё: MSCLoader, DirectX 11/12, SDK от NVIDIA и AMD, Ollama, GitHub Actions.
 
----
+## Связаться
 
-## 🧰 Технологии
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**Также:** моддинг на Unity (MSCLoader), Direct3D 11/12, SDK DLSS и FSR, Ollama (локальные LLM), GitHub Actions и Releases
-
----
-
-## 📊 Статистика GitHub
+Сайт: [dealova.com](https://dealova.com)
+<!-- TODO: почта / Telegram / LinkedIn -->
 
 <div align="center">
 
-![Статистика](https://github-readme-stats.vercel.app/api?username=ANICKONS&show_icons=true&theme=tokyonight&hide_border=true)
-![Языки](https://github-readme-stats.vercel.app/api/top-langs/?username=ANICKONS&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 📫 Контакты
-
-- 🌐 Сайт: [dealova.com](https://dealova.com)
-<!-- TODO: добавьте почту / Telegram / LinkedIn, чтобы работодатели могли с вами связаться -->
-
-<div align="center">
-
-⭐ Если проект понравился, буду рад звезде на репозитории.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" alt="" width="100%"/>
 
 </div>
