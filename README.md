@@ -14,62 +14,83 @@
 
 </div>
 
-## Коротко о себе
+## 👋 Коротко о себе
 
 Я ANICKON. Пишу десктопные приложения на Electron и React и моды для игр на C#. Тестирование для меня часть разработки, а не отдельный шаг в конце: я знаю, как всё это ломается изнутри, поэтому в своих проектах не оставляю проверку на потом.
 
-Что из тестирования у меня уже есть в проектах:
+### 🧪 Как я тестирую
 
-- **Автоматические сценарии.** В MOP-REVIVAL и My-Summer-Frames есть внутриигровой тест-бот со сценариями. Отдельный скрипт ставит сборку в игру, прогоняет сессию и потом возвращает сохранение и настройки как было.
-- **Замеры перед релизом.** Любое изменение производительности я проверяю в самой игре: FPS до и после, на конкретной видеокарте. Без цифр в релиз не идёт.
-- **Совместимость.** Для MOP-REVIVAL есть правила под 43 других мода и публичная [страница совместимости](https://anickons.github.io/MOP-REVIVAL/), где видно, что с чем работает.
-- **Багрепорты.** В моде есть кнопка «Report bug», которая сама прикладывает логи, чтобы баг было легко воспроизвести.
-- **Проверка данных.** В ULTIMA редактор проверяет обязательные поля и подсвечивает ошибки в переводе, а не даёт сохранить сломанный файл.
-- **Веб.** В IDELUXE-STUDIO перед выпуском прогоняю lint, проверку типов и production-сборку, плюс ручные проверки в браузере.
+| Что | Как это у меня устроено |
+|:--|:--|
+| **Автосценарии** | В MOP-REVIVAL и My-Summer-Frames есть внутриигровой тест-бот со сценариями. Скрипт ставит сборку в игру, прогоняет сессию и возвращает сохранение и настройки как было. |
+| **Замеры** | Любое изменение производительности проверяю в самой игре: FPS до и после, на конкретной видеокарте. Без цифр в релиз не идёт. |
+| **Совместимость** | Для MOP-REVIVAL есть правила под 43 других мода и публичная [страница совместимости](https://anickons.github.io/MOP-REVIVAL/). |
+| **Багрепорты** | В моде есть кнопка «Report bug», которая сама прикладывает логи, чтобы баг было легко воспроизвести. |
+| **Проверка данных** | ULTIMA проверяет обязательные поля и подсвечивает ошибки в переводе, а не даёт сохранить сломанный файл. |
+| **Веб** | В IDELUXE-STUDIO перед выпуском прогоняю lint, проверку типов и production-сборку, плюс ручные проверки в браузере. |
 
-## Главные проекты
+---
 
-### [ULTIMA](https://github.com/ANICKONS/ULTIMA): редактор для перевода модов Baldur's Gate 3
+## 🚀 Главные проекты
 
-Открываешь `.pak` или `.xml`, слева оригинал, справа перевод. Можно переводить через Google Translate или локальную модель через Ollama. Есть поиск и фильтры по таблице, защита от потери несохранённых изменений, история проектов и автообновление через GitHub Releases.
+### [ULTIMA](https://github.com/ANICKONS/ULTIMA)
 
-К нему есть набор вспомогательных инструментов, [ULTIMA_TOOLS](https://github.com/ANICKONS/ULTIMA_TOOLS): один вытаскивает строки из .NET-сборок модов и возвращает их обратно, другой переводит строки чужого мода прямо в памяти, не трогая его .dll. Сборку и выпуск релизов делает GitHub Actions.
+*Редактор для перевода модов Baldur's Gate 3*
+
+- Открываешь `.pak` или `.xml`: слева оригинал, справа перевод
+- Перевод через Google Translate или локальную модель (Ollama)
+- Поиск и фильтры по таблице, защита от потери несохранённых изменений, история проектов
+- Автообновление через GitHub Releases
+- Вспомогательные инструменты вынесены в [ULTIMA_TOOLS](https://github.com/ANICKONS/ULTIMA_TOOLS): один вытаскивает строки из .NET-сборок модов и возвращает их обратно, другой переводит строки чужого мода прямо в памяти, не трогая его .dll. Сборку и релизы делает GitHub Actions
 
 `Electron` `React 19` `Vite` `Tailwind` `C#` `.NET`
 
-### [IDELUXE-STUDIO](https://github.com/ANICKONS/IDELUXE-STUDIO): сайт платформы для видеомонтажёра IDELUXE
+### [IDELUXE-STUDIO](https://github.com/ANICKONS/IDELUXE-STUDIO)
 
-Лендинг с космическим фоном (звёзды на canvas, планета на WebGL), тарифы с оплатой через Telegram-бота, вход по почте, через Telegram и Google, каталог туториалов с плеером и прогрессом просмотра, каталог ресурсов и ИИ-ассистент для старшего тарифа. Код разложен по модулям (`features`, `content`, `config`), дизайн-система собрана на токенах.
+*Сайт платформы для видеомонтажёра IDELUXE*
+
+- Лендинг с космическим фоном: звёзды на canvas, планета на WebGL
+- Тарифы с оплатой через Telegram-бота
+- Вход по почте, через Telegram и Google
+- Каталог туториалов с плеером и прогрессом просмотра, каталог ресурсов
+- ИИ-ассистент для старшего тарифа
+- Код разложен по модулям (`features`, `content`, `config`), дизайн-система собрана на токенах
 
 `Next.js 16` `React 19` `TypeScript` `Tailwind 4` `Better Auth` `SQLite`
 
-## Другие проекты
+---
 
-**[MOP-REVIVAL](https://github.com/ANICKONS/MOP-REVIVAL)** — мод, который повышает FPS в My Summer Car. Продолжение старого MOP, переделанное под нынешнюю версию игры. Интерфейс на английском, русском и польском.
-`C#` `MSCLoader` `Unity`
+## 🧩 Другие проекты
 
-**[My-Summer-Frames](https://github.com/ANICKONS/My-Summer-Frames)** — мод, который добавляет в My Summer Car DLSS, FSR, генерацию кадров и NVIDIA Reflex. Игра старая (Unity 5, DirectX 11), поэтому векторы движения я считаю сам из буфера глубины, а генерацию кадров запускаю через отдельный мост на DirectX 12. Проверял на RTX 5070 Ti.
-`C#` `C++` `DirectX` `DLSS` `FSR`
+| Проект | Что делает | Стек |
+|:--|:--|:--|
+| **[MOP-REVIVAL](https://github.com/ANICKONS/MOP-REVIVAL)** | Мод, который повышает FPS в My Summer Car. Продолжение старого MOP под нынешнюю версию игры. Интерфейс на английском, русском и польском. | `C#` `MSCLoader` `Unity` |
+| **[My-Summer-Frames](https://github.com/ANICKONS/My-Summer-Frames)** | Добавляет в My Summer Car DLSS, FSR, генерацию кадров и NVIDIA Reflex. Игра старая (Unity 5, DirectX 11), поэтому векторы движения считаю сам из буфера глубины, а генерацию кадров запускаю через мост на DirectX 12. Проверял на RTX 5070 Ti. | `C#` `C++` `DirectX` `DLSS` `FSR` |
+| **[Cyberpunk Mod Launcher](https://github.com/ANICKONS/cyberpunk-unreal-launcher)** | Лаунчер для сборки модов Cyberpunk 2077 в стиле Найт-Сити. Скачивает и ставит сборку одной кнопкой, следит за версиями, запускает игру через Mod Organizer 2. | `Electron` `React` `TypeScript` |
 
-**[Cyberpunk Mod Launcher](https://github.com/ANICKONS/cyberpunk-unreal-launcher)** — лаунчер для сборки модов Cyberpunk 2077 в стиле Найт-Сити. Скачивает и ставит сборку одной кнопкой, следит за версиями, запускает игру через Mod Organizer 2.
-`Electron` `React` `TypeScript`
+---
 
-## С чем работаю
+## 🧰 С чем работаю
 
+**Языки**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+
+**Фреймворки и платформы**
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Electron](https://img.shields.io/badge/Electron-2B2E3A?style=flat-square&logo=electron&logoColor=9FEAF9)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Инструменты**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 <details>
-<summary><b>Статистика GitHub</b></summary>
+<summary><b>📊 Статистика GitHub</b></summary>
 <br/>
 <div align="center">
 
@@ -79,9 +100,13 @@
 </div>
 </details>
 
-## Связаться
+---
 
-Почта: [anickon.mi@gmail.com](mailto:anickon.mi@gmail.com) · Telegram: [@An1ckon](https://t.me/An1ckon) · VK: [vk.com/anickon](https://vk.com/anickon)
+## 📫 Связаться
+
+- **Почта:** [anickon.mi@gmail.com](mailto:anickon.mi@gmail.com)
+- **Telegram:** [@An1ckon](https://t.me/An1ckon)
+- **VK:** [vk.com/anickon](https://vk.com/anickon)
 
 <div align="center">
 
