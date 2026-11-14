@@ -75,8 +75,8 @@
 <br/>
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ANICKONS&show_icons=true&theme=tokyonight&hide_border=true" alt="Статистика GitHub"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ANICKONS&layout=compact&theme=tokyonight&hide_border=true" alt="Топ языков"/>
+<img src="https://raw.githubusercontent.com/ANICKONS/ANICKONS/main/assets/stats.svg" alt="Статистика GitHub" width="48%"/>
+<img src="https://raw.githubusercontent.com/ANICKONS/ANICKONS/main/assets/langs.svg" alt="Языки" width="48%"/>
 
 </div>
 </details>
