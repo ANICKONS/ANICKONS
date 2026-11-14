@@ -12,10 +12,6 @@
 <a href="https://boosty.to/anickon"><img src="https://img.shields.io/badge/Boosty-F15F2C?style=flat&logo=boosty&logoColor=white" alt="Boosty"/></a>
 <a href="mailto:anickon.mi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=ANICKONS&label=Profile%20views&color=brightgreen&style=flat" alt="Profile views"/>
-
 </div>
 
 ## Коротко о себе
